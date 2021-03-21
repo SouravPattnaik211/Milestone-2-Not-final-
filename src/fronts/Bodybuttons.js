@@ -6,7 +6,6 @@ import Button from '@material-ui/core/Button';
 import edit from '../assets/Path 18191.svg';
 import InputBase from "@material-ui/core/InputBase";
 import IconButton from "@material-ui/core/IconButton";
-import SearchIcon from '@material-ui/icons/Search';
 import Bodytable from '../fronts/Bodytable.js';
 import search from '../assets/search-24px (3).svg'
 import AddIcon from '@material-ui/icons/Add';
@@ -36,11 +35,11 @@ const useStyles = makeStyles(theme =>({
     },
     root: {
       display: "flex",
-      width: pxToVw(300),
-      height:pxToVh(30),
+      width: pxToVw(500),
+      height:pxToVh(31),
       border:1,
       borderStyle:"solid",
-      borderRadius: "4px",
+      borderRadius: "3px",
       borderColor:'#14AFF1',
       margin: pxToVh(15)
     },
@@ -71,7 +70,7 @@ const useStyles = makeStyles(theme =>({
         marginTop: pxToRem(20),
         marginLeft: pxToRem(30),
         height: pxToRem(45),
-        width: pxToRem(300),
+        width: pxToRem(400),
         textAlign: "left",
         letterSpacing: pxToRem(0),
         opacity: 1,
@@ -114,7 +113,7 @@ const useStyles = makeStyles(theme =>({
       marginTop: pxToRem(20),
       marginLeft: pxToRem(18),
       height: pxToRem(45),
-      width: pxToRem(120),
+      width: pxToRem(150),
       textAlign: "left",
       font: "normal normal normal 28px/32px Ubuntu",
       letterSpacing: pxToRem(0),
